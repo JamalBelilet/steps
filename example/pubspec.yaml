@@ -1,0 +1,26 @@
+name: steps_example
+description: Demonstrates how to use the steps plugin.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  steps:
+    path: ../
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/art.jpg
+   - assets/cat.jpg
