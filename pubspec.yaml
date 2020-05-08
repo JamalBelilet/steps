@@ -1,11 +1,10 @@
 name: steps
 description: Flutter plugin for displaying vertical/horizontal steps with other Flutter widgets on Android and iOS.
-version: 0.0.1
-author: Djamaleddine Belilet <fd_belilet@esi.dz>
+version: 1.0.1
 homepage: http://github.com/jamalbelilet/steps
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
   flutter:
