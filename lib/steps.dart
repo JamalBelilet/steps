@@ -8,11 +8,11 @@ class Steps extends StatelessWidget {
   final double size;
   final Map path;
   Steps({
-    Key key,
+    Key? key,
     this.direction = Axis.vertical,
-    @required this.steps,
+    required this.steps,
     this.size = 21,
-    @required this.path,
+    required this.path,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
